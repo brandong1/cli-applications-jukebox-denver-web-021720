@@ -30,7 +30,8 @@ end
 def play
 end
 
-def list 
+def list(songs)
+  songs.each_with_index
 end
 
 def exit_jukebox
